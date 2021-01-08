@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+
+header .bannerAzul{
+    margin: 0;
+    position: relative;
+    bottom: 10px;
+    width: 100%;
+    height: 393px;
+    background-repeat: no-repeat;
+   background-image: url('../fonts/bannerAzul.png');
+   
+}
+ header .bannerEsquerdo{
+    
+    width: 100%;
+    max-width: 750px;
+    height: 314px;
+    background-repeat: no-repeat;
+    background-image: url('../fonts/bannerEsq.png');
+    background-size: cover;
+    background-position: center;
+    
+}
+.bannerEsquerdo  .separa{
+    background-image: url('../fonts/forma1-10.png');
+    width: 5px;
+    height: 40px;
+    position: absolute;
+    margin: 45px 255px;
+}
+.bannerEsquerdo p{
+    width: 305px;
+    height: 40px;
+    position: absolute;
+    margin: 50px 280px;
+    color: white;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+.bannerEsquerdo  .texto{
+    width: 600px;
+    height: 30px;
+    line-height: 1.9rem;
+    text-align: justify;
+    font-weight: 100;
+    color: silver;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 120px 100px;
+}
+.bannerEsquerdo .preco{
+    width: 600px;
+    height: 30px;
+    line-height: 1.9rem;
+    text-align: justify;
+    font-weight: 100;
+    color: silver;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 240px 100px;
+}
+.bannerEsquerdo span{  
+    color: white;
+    font-size: 28px;
+}
+.bannerEsquerdo a.saiba {
+    width: 105px;
+    border-radius: 5px;
+    height: 30px;
+    text-decoration: none;
+    position: absolute;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    background-image: url('../fonts/retanguloArredondado.png');
+    margin: 240px 220px;
+    padding: 6px 15px;
+    border: 0;
+    
+}
+
+  .logo{
+    background-image: url('../fonts/logoUpminer.png');
+    background-repeat: no-repeat;
+    width: 139px;
+    height: 43px;
+    margin: 40px 100px;
+    position: absolute; 
+    
+}
+.linha-hor{
+    background-image: url('../fonts/retang1-16.png');
+    width: 100%;
+    height: 145px;
+    bottom: 90px;
+    position: relative;
+    background-repeat: no-repeat;
+}
+section.categorias{
+    width: 100%;
+    max-width: 1280px;
+    bottom: 210px;
+    margin: 0 auto;
+    position: relative;
+    height: 80px;
+   
+    
+}
+.topnav a{
+    float: left;
+    width: 100%;
+    display: inline;
+    color: green;
+    padding: 18px 50px;
+    text-decoration: none;
+    
+     position: relative;
+    
+}
+.topnav a p{
+    
+    color: white;
+    margin: 5px -7px;
+    text-decoration: none;
+    position: relative;
+}
+.topnav a.todos{
+    position: relative;
+
+    background-image: url('../fonts/retang1-15.png');
+    height: 85px;
+    width: 10%;
+    background-repeat: no-repeat;
+    margin:-8px 0;
+    border-radius: 10% 10%;
+    
+    
+}
+.topnav a.gray{
+    background-color: ghostwhite;
+    height: 83px;
+    width: 10%;
+    padding: 8px -20px;
+    background-repeat: no-repeat;
+    margin:-6px 0px;
+    
+}
+.topnav a.gray p{
+    right: 40px;
+    text-align: center;
+    display: block;
+    width: 120px;
+  
+    display: block;
+    position: relative;
+    top: 0px;
+    color:slategrey;
+    font-weight: 100;
+}
+.topnav img .forma{
+    position: relative;
+    bottom: 190px;
+    left: 35px;
+}
+
+
